@@ -9,8 +9,8 @@ class ProfileGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 150,
-        width: 115,
+       // height:  150,
+        width: 110,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
           color: const Color.fromRGBO(24, 74, 192, .71),
@@ -53,7 +53,7 @@ class ProfileGrid extends StatelessWidget {
               ],
             )
           ],
-        ).cPadOnly(t: 105));
+        ).cPadOnly(t: 70));
   }
 }
 

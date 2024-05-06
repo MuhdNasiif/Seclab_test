@@ -13,6 +13,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.white,
         leading: Image.asset("assets/Back.png"),
         actions: [
           Image.asset("assets/More.png").cPadOnly(r: 5),
@@ -211,9 +212,11 @@ class HomePage extends StatelessWidget {
                   mainAxisSpacing: 8,
                 ),
                 itemCount: 12,
-                itemBuilder: (context, index) => ProfileGrid())
+                itemBuilder: (context, index) => ProfileGrid()),
+                 10.hBox,
           ],
         ),
+       
       ),
       bottomNavigationBar: const BottomNavigation(),
     );
